@@ -1,0 +1,58 @@
+########################################
+# Sample data
+########################################
+
+{
+   "author": {
+     "id"      : 1
+     "name"    : "Agatha",
+     "surname" : "Christie"
+   },
+   "title" : "And Then There Were None"
+}
+
+{
+   "author": {
+      "name"    : "Dan",
+      "surname" : "Brown"
+    },
+    "title" : "The Da Vinci Code"
+}
+
+{
+    "author": {
+        "name"    : "Tamora",
+        "surname" : "Pierce"
+    },
+    "title" : "Squire"
+}
+
+########################################
+# Rest Api
+########################################
+
+// http://localhost:8080/api/addNewBook
+// http://localhost:8080/api/deleteBook/1
+// http://localhost:8080/api/updateBook/1
+// http://localhost:8080/api/findAllBooksInLibrary
+// http://localhost:8080/api/getBookById/1
+
+Spring Security i JSON Web Token:
+
+########################################
+# Spring Security i JSON Web Token:
+########################################
+
+Authorization header : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJhZG1pbiIsInJvbGUiOiJST0xFX0FETUlOIn0.PjfBPCmST3GyjyBpNfqYCtLqZL55z4qvva-T8b3KUGo
+
+########################################
+# Swagger UI
+########################################
+
+// http://localhost:8080/swagger-ui.html
+
+########################################
+# H2 database
+########################################
+
+http://localhost:8080/h2/
